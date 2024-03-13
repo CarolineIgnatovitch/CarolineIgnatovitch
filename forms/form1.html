@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<HTML>
+
+<HEAD>
+    <META charset="utf-8">
+    <TITLE>form</TITLE>
+</HEAD>
+
+<BODY>
+    <form action="http://fe.it-academy.by/TestForm.php" method="post">
+        <h1>Форма заявки на работу в зоопарке</h1>
+        <p><cite>Пожалуйста, заполните форму. Обязательные поля помечены.</cite></p>
+        <fieldset>
+            <legend>Контактная информация</legend>
+            Имя
+            <input type="text" name="Name" MAXLENGTH="30" required>
+            Телефон
+            <input type="number" name="Phone">
+            E-mail
+            <input type="email" name="email" required>
+        </fieldset>
+        <fieldset>
+            <legend>Персональная информация</legend>
+            Возраст
+            <input type="number" name="Age" min="16" max="60" required>
+            Пол
+            <select name="list" id="list">
+                <option value="1">Женщина</option>
+                <option value="1">Мужчина</option>
+            </select>
+            Перечислите личные качества
+            <textarea name="Personal characteristics" cols="30" rows="10">
+    </textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Выберете ваше любимое животное</legend>
+            <label>
+                <input type="checkbox" name="animal1"> Зебра
+            </label><br>
+            <label>
+                <input type="checkbox" name="animal2"> Слон
+            </label><br>
+            <label>
+                <input type="checkbox" name="animal3"> Кошак
+            </label><br>
+            <label>
+                <input type="checkbox" name="animal4"> Антилопа
+            </label><br>
+            <label>
+                <input type="checkbox" name="animal5"> Анаконда
+            </label><br>
+            <label>
+                <input type="checkbox" name="animal6"> Голубь
+            </label><br>
+            <label>
+                <input type="checkbox" name="animal7"> Человек
+            </label><br>
+            <label>
+                <input type="checkbox" name="animal8"> Краб
+    
+            </label><br>
+        </fieldset>
+        <input type="submit" value="Отправить">
+    </form>
+</BODY>
+
+</HTML>
