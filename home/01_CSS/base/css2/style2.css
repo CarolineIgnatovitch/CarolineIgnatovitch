@@ -1,0 +1,20 @@
+
+.vip{
+    font-weight: bold; 
+    text-align: right;
+}
+.super_vip {
+    font-style: italic;
+    text-align: right;
+}
+.t{
+    text-align: right;  
+}
+.ttt {
+    font-family: "Caveat", cursive;
+    text-indent: 5mm;
+}
+#yyy {
+    text-decoration:underline;
+    font-weight: 700;
+}
